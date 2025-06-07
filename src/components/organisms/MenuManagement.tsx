@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Button from '../atoms/Button';
 import { useToast } from '@/hooks/use-toast';
@@ -37,7 +36,7 @@ const MenuManagement = () => {
       category: "starter",
       dietary: ["vegetarian"],
       availability: true,
-      image: "https://images.unsplash.com/photo-1563379091339-03246963d51a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+      image: "https://tse4.mm.bing.net/th?id=OIP.oG-JJlRhDy-EN6aP7xFRXgHaE8&pid=Api&P=0&h=180"
     }
   ]);
 

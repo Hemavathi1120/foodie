@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { MapPin, Phone, Mail, Clock, Instagram, Facebook } from 'lucide-react';
 import Logo from '../atoms/Logo';
@@ -69,7 +68,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={18} className="text-amber-400" />
-                <span className="text-gray-400">hello@lumiereDining.com</span>
+                <span className="text-gray-400">hello@reevesDining.com</span>
               </div>
             </div>
           </div>

@@ -1,10 +1,10 @@
-
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import { auth } from '../config/firebase';
 import Button from '../components/atoms/Button';
 import { useToast } from '@/hooks/use-toast';
+import { useNetworkStatus } from '../hooks/useNetworkStatus';
 
 const AdminLogin = () => {
   const [credentials, setCredentials] = useState({
@@ -14,9 +14,20 @@ const AdminLogin = () => {
   const [isLoading, setIsLoading] = useState(false);
   const navigate = useNavigate();
   const { toast } = useToast();
+  const isOnline = useNetworkStatus();
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+
+    if (!isOnline) {
+      toast({
+        title: "Network Error",
+        description: "Please check your internet connection",
+        variant: "destructive",
+      });
+      return;
+    }
+
     setIsLoading(true);
 
     try {
@@ -59,6 +70,11 @@ const AdminLogin = () => {
 
   return (
     <div className="min-h-screen bg-gray-950 flex items-center justify-center px-6">
+      {!isOnline && (
+        <div className="fixed top-0 w-full bg-red-500 text-white p-2 text-center">
+          You are currently offline. Please check your internet connection.
+        </div>
+      )}
       <div className="max-w-md w-full">
         <div className="bg-gray-800 rounded-2xl p-8 shadow-2xl">
           <div className="text-center mb-8">

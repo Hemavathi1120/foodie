@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import Header from '../components/organisms/Header';
 import Footer from '../components/organisms/Footer';
@@ -7,12 +6,6 @@ const Gallery = () => {
   const [selectedCategory, setSelectedCategory] = useState('all');
 
   const galleryImages = [
-    {
-      id: 1,
-      url: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      category: "interior",
-      title: "Main Dining Room"
-    },
     {
       id: 2,
       url: "https://images.unsplash.com/photo-1546833999-b9f581a1996d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",

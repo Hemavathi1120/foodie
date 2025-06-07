@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Button from '../atoms/Button';
@@ -8,8 +7,7 @@ const Hero = () => {
   const navigate = useNavigate();
   
   const heroImages = [
-    'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
-    'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    'https://tse3.mm.bing.net/th?id=OIP.UqxLIphWzFijpHdSjXqtBwHaE8&pid=Api&P=0&h=180',
     'https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=2074&q=80'
   ];
 

@@ -17,21 +17,12 @@ const Menu = () => {
       dietary: ["gluten-free"]
     },
     {
-      id: 2,
-      name: "Mediterranean Sea Bass",
-      description: "Fresh catch with olive tapenade, roasted tomatoes, and herb oil",
-      price: 85,
-      category: "main",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
-      dietary: ["pescatarian", "gluten-free"]
-    },
-    {
       id: 3,
       name: "Truffle Risotto",
       description: "Creamy arborio rice with black truffle shavings and parmesan",
       price: 65,
       category: "starter",
-      image: "https://images.unsplash.com/photo-1563379091339-03246963d51a?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "https://tse4.mm.bing.net/th?id=OIP.oG-JJlRhDy-EN6aP7xFRXgHaE8&pid=Api&P=0&h=180",
       dietary: ["vegetarian"]
     },
     {

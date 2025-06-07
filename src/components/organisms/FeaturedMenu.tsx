@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Button from '../atoms/Button';
@@ -20,7 +19,7 @@ const FeaturedMenu = () => {
       name: "Mediterranean Sea Bass",
       description: "Fresh catch with olive tapenade, roasted tomatoes, and herb oil",
       price: "$85",
-      image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+      image: "https://tse4.mm.bing.net/th?id=OIP.pV92xoegQ94sL9QtGgEJ7QHaFj&pid=Api&P=0&h=180",
       category: "Main Course"
     },
     {

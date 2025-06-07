@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import Button from '../atoms/Button';
@@ -19,7 +18,7 @@ const About = () => {
               Our <span className="text-amber-400">Story</span>
             </h2>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              Founded in 2015 by Chef Marcus Beaumont, Lumière Dining represents the pinnacle of fine dining excellence. 
+              Founded in 2015 by Chef Marcus Beaumont, Reeves Dining represents the pinnacle of fine dining excellence. 
               Our commitment to culinary artistry and impeccable service has earned us recognition from critics and 
               food enthusiasts worldwide.
             </p>
@@ -33,7 +32,7 @@ const About = () => {
           </div>
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1600891964092-4316c288032e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+              src="https://placehold.co/1000x640/111827/FFFFFF?text=Chef+at+Work"
               alt="Chef preparing dish"
               className="rounded-2xl shadow-2xl w-full h-96 object-cover"
             />
